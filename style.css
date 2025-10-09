@@ -4,9 +4,25 @@
 
 body{
     font-family: "poppins";
-    background: linear-gradient(160deg, var(--warna-hijau), #000);
+    background-color: #e5e5e5;
 }
 
+
+/* layer */
+.navbar{
+    z-index: 5;
+}
+
+*{
+    z-index: 2;
+}
+
+.accent-banner{
+    z-index: 1;
+}
+
+
+/* navbar */
 .navbar-brand{
     font-size: 20px;
     font-weight: 700;
@@ -74,3 +90,13 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+/* hero section end */
+
+
+
+/* layanan style */
+#our-service{
+    height: 100vh;
+}
+
+/* end layanan style */
