@@ -97,6 +97,55 @@ body{
 /* layanan style */
 #our-service{
     height: 100vh;
+    padding: 100px 0;
+    background-color: #dbfffe;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 500;color:
+    var(--warna-hijau);
+}
+
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-service{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.icon-bulat{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.card-service:hover{
+    background: linear-gradient(160deg, var(--warna-hijau), #000);
+    transition: all 0.3s ease-in;
+}
+
+.card-service:hover .icon-bulat{
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.card-service:hover h4{
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.card-service:hover p{
+    color: #fff;
+    transition: all 0.3s ease-in;
 }
 
 /* end layanan style */
