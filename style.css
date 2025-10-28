@@ -154,7 +154,7 @@ h1{
 
 
 /* style temukan Rumah */
-#tmkn-rumah{
+#search-rumah{
     background-image: url(image/bg.png);
     height: 100vh;
 }
@@ -170,5 +170,54 @@ h1{
     color: #fff;
 }
 
+.nav-link-tab{
+    border: none;
+    height: 42px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
 
-/* end srtyle temukan Rumah */
+.jual{
+    border-top-left-radius: 10px;
+}
+
+.property{
+    border-top-right-radius: 10px;
+}
+
+.nav-link-tab.active{
+    color: var(--warna-hijau);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group{
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-left-radius: 10px;
+}
+
+.btn-search{
+    height: 88px;
+    width: 200px;
+    border: none;
+    color: var(--warna-hijau);
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    border-right: solid 2px white;
+}
+
+.btn-cari{
+    height: 88px;
+    width: 135px;
+    background-color: var(--warna-hijau);
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* end style temukan Rumah */
